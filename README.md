@@ -83,12 +83,3 @@ http://localhost:3000
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome! Please follow the project structure and write clean code.
-
----
-
-## 📜 License
-
-This project is licensed under your preferred license.
