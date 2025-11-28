@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Medical Assistance Web App
 
-## Getting Started
+A **Next.js** application for **medical image classification**, **segmentation**, and **automated medical report generation**. The project uses modern tooling including **pnpm**, **Next.js App Router**, and AI-based backend services.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd <project-folder>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses **pnpm** as the package manager.
 
-## Learn More
+### Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you don’t have pnpm installed:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install -g pnpm
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## ▶️ Running the Application
+
+### Development Mode
+
+```bash
+pnpm dev
+```
+
+Starts the Next.js development server at:
+
+```
+http://localhost:3000
+```
+
+
+
+## 🧠 Features
+
+### 🔬 Image Classification
+
+* Upload medical images.
+* AI model predicts classes (skin diseases, X-ray findings, etc.).
+
+### 🧩 Image Segmentation
+
+* Model highlights affected medical regions.
+* Useful for marking tumors, lesions, abnormalities.
+
+### 📄 Medical Report Generation
+
+* Automatically generates a structured medical report.
+* Includes findings, diagnosis suggestions, and severity assessments.
+
+---
+
+
+
+## 🛠️ Tech Stack
+
+* Next.js 14 (App Router)
+* React 18
+* pnpm
+* TailwindCSS
+* TypeScript
+* AI/ML Model API (your service)
+
+---
+
